@@ -39,7 +39,7 @@ The primary criterion for inclusion is simple: Projects listed here are large un
 ### Plugins, STT / TTS Alternatives, Containers & Packages
 **_A list of Plugins, STT, TTS and alternative services that allow you to change the default behaviour of Mycroft in terms of supported voice engines, supported backends, etc_**
 
-- **Mycroft-lib**: Mycroft-lib is a version of Mycroft-core, split into components and repackaged. Aimed at devs and makers who may wish to use only part of the Mycroft stack. [Project Link](https://github.com/HelloChatterbox/mycroft-lib)
+- **HolmesV**: HolmesV is a version of Mycroft-core, split into components and repackaged. Aimed at devs and makers who may wish to use only part of the Mycroft stack. [Project Link](https://github.com/HelloChatterbox/HolmesV)
 - **OpenVoiceOS Local Backend**: Personal Mycroft backend. Alternative to home.mycroft.ai, written in Flask. Meant for personal usage, this allows you to run fully offline. This is NOT meant to be hosted, but rather to run directly on Mycroft devices. [Project Link](https://github.com/OpenVoiceOS/OVOS-local-backend)
 - **Mycroft Remote Services Docker**: Mycroft Remote Services is Docker container, comprised of preinstalled packages such as Mycroft Core, Apache, and Mycroft Remote Dashboard, that are configured to serve Mycroft Core services over the local network. [Project Link](https://mycroft.pub/hosting-service/)
 - **Precise Wakeword Plugin**: Mycroft wake word plugin for Precise. [Project Link](https://github.com/JarbasLingua/jarbas-wake-word-plugin-precise)
