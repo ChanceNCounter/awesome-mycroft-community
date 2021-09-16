@@ -14,21 +14,21 @@ The primary criterion for inclusion is simple: Projects listed here are large un
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 - [awesome-mycroft-community](#awesome-mycroft-community)
-    + [Distributions, Images, Projects Shipping Mycroft](#distributions--images--projects-shipping-mycroft)
-    + [Mycroft Frameworks](#mycroft-frameworks)
-    + [Plugins, STT / TTS Alternatives, Containers & Packages](#plugins--stt---tts-alternatives--containers---packages)
-    + [Skill Tooling & Utilities](#skill-tooling---utilities)
-    + [Desktop & Mobile Mycroft Integrations](#desktop---mobile-mycroft-integrations)
+    - [Distributions, Images, Projects Shipping Mycroft](#distributions-images-projects-shipping-mycroft)
+    - [Mycroft Frameworks](#mycroft-frameworks)
+    - [Plugins, STT / TTS Alternatives, Containers & Packages](#plugins-stt--tts-alternatives-containers--packages)
+    - [Skill Tooling & Utilities](#skill-tooling--utilities)
+    - [Desktop & Mobile Mycroft Integrations](#desktop--mobile-mycroft-integrations)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Distributions, Images, Projects Shipping Mycroft
-**_A list of Products, Projects, Distributions and Images shipping Mycroft with special emphasis on Voice Input, Voice Assistance targeting specific hardware like SBCs, Smart Speakers, Home Entertainment Systems_**
+_A list of projects shipping Mycroft, with special emphasis on hardware or niche support_
 
 - **OpenVoiceOS (OVOS)**: Linux distribution for SBCs, purpose-built to showcase the power of Open Source Voice AI for a range of devices. [Project Link](https://www.openvoiceos.com)
 - **Plasma Bigscreen**: An open UI stack for your own personal TV box, using various open-source components like Plasma Bigscreen Launcher, Mycroft AI and Libcec. Based on KDE Neon. [Project Link](https://plasma-bigscreen.org/)
 - **Chatterbox**: The smart speaker anyone can build and teach! Privacy-first, educational smart speaker to teach kids about coding, artificial intelligence, and privacy. [Project Link](https://hellochatterbox.com/)
-- **Mycroft ROS**: This package provides capability to run the Text-To-Speech, Speech-To-Text and Skill functionality of Mycroft AI as ROS nodes providing topics, services and actions for communication. [Project Link](http://wiki.ros.org/mycroft_ros)
+- **Mycroft ROS**: This package provides the capability to run the Text-To-Speech, Speech-To-Text and Skill components of Mycroft as Robot Operating System nodes, providing topics, services and actions for communication. [Project Link](http://wiki.ros.org/mycroft_ros)
 
 ### Mycroft Frameworks
 **_A list of frameworks built to extend Mycroft's capabilities, which can be used standalone or in conjuction with each other_**
@@ -42,24 +42,27 @@ The primary criterion for inclusion is simple: Projects listed here are large un
 - **HolmesV**: HolmesV is a version of Mycroft-core, split into components and repackaged. Aimed at devs and makers who may wish to use only part of the Mycroft stack. [Project Link](https://github.com/HelloChatterbox/HolmesV)
 - **OpenVoiceOS Local Backend**: Personal Mycroft backend. Alternative to home.mycroft.ai, written in Flask. Meant for personal usage, this allows you to run fully offline. This is NOT meant to be hosted, but rather to run directly on Mycroft devices. [Project Link](https://github.com/OpenVoiceOS/OVOS-local-backend)
 - **Mycroft Remote Services Docker**: Mycroft Remote Services is Docker container, comprised of preinstalled packages such as Mycroft Core, Apache, and Mycroft Remote Dashboard, that are configured to serve Mycroft Core services over the local network. [Project Link](https://mycroft.pub/hosting-service/)
-- **Precise Wakeword Plugin**: Mycroft wake word plugin for Precise. [Project Link](https://github.com/JarbasLingua/jarbas-wake-word-plugin-precise)
-- **Dummy Wakeword Plugin**: A simple plugin for disabling wake word. Mycroft will only answer by button_press/bus signal. [Project Link](https://github.com/HelloChatterbox/dummy_wakeword_plugin)
-- **Snowboy Wakeword Plugin**: Mycroft wake word plugin for Snowboy. [Project Link](https://github.com/JarbasLingua/jarbas-wake-word-plugin-snowboy)
-- **Vosk Wakeword Plugin**: Mycroft wake word plugin for Vosk. [Project Link](https://github.com/JarbasLingua/jarbas-wake-word-plugin-vosk)
-- **Nyumaya Wakeword Plugin**: Mycroft wake word plugin for Nyumaya version 1.0.0. [Project Link](https://github.com/JarbasLingua/jarbas-wake-word-plugin-nyumaya-premium)
-- **PocketSphinx Wakeword Plugin**: Mycroft wake word plugin for PocketSphinx. [Project Link](https://github.com/JarbasLingua/jarbas-wakeword-plugin-pocketsphinx)
-- **Vosk STT Plugin**: Mycroft STT plugin for Vosk. [Project Link](https://github.com/JarbasLingua/jarbas-stt-plugin-vosk)
-- **Chromium STT Plugin**: A STT plugin for Mycroft using the google chrome browser api. [Project Link](https://github.com/JarbasLingua/jarbas-stt-plugin-chromium)
-- **PocketSphinx STT Plugin**: A STT plugin for Mycroft using PocketSphinx. [Project Link](https://github.com/JarbasLingua/jarbas-stt-plugin-pocketsphinx)
-- **ResponsiveVoice TTS Plugin**: Mycroft TTS plugin for ResponsiveVoice. [Project Link](https://github.com/JarbasLingua/jarbas-tts-plugin-responsivevoice)
-- **Voice RSS TTS Plugin**: Mycroft TTS plugin for VoiceRSS. [Project Link](https://github.com/JarbasLingua/jarbas-tts-plugin-voicerss)
-- **Catotron TTS Plugin**: Mycroft TTS plugin for Catotron. [Project Link](https://github.com/JarbasLingua/jarbas-tts-plugin-catotron)
-- **Cotovia TTS Plugin**: Mycroft TTS plugin for Cotovia TTS. [Project Link](https://github.com/JarbasLingua/jarbas-tts-plugin-cotovia)
-- **Softcatala TTS Plugin**: Mycroft TTS plugin for Softcatala TTS. [Project Link](https://github.com/JarbasLingua/jarbas-tts-plugin-softcatala)
 - **OpenVoiceOS Plugin Manager**: OPM can be used to search, install, load and create plugins for the OpenVoiceOS ecosystem! [Project Link](https://github.com/OpenVoiceOS/OVOS-plugin-manager)
+- **Wake Words**
+  - **Precise Wakeword Plugin**: Mycroft wake word plugin for Precise. [Project Link](https://github.com/JarbasLingua/jarbas-wake-word-plugin-precise)
+  - **Dummy Wakeword Plugin**: A simple plugin for disabling wake word. Mycroft will only answer by button_press/bus signal. [Project Link](https://github.com/HelloChatterbox/dummy_wakeword_plugin)
+  - **Snowboy Wakeword Plugin**: Mycroft wake word plugin for Snowboy. [Project Link](https://github.com/JarbasLingua/jarbas-wake-word-plugin-snowboy)
+  - **Vosk Wakeword Plugin**: Mycroft wake word plugin for Vosk. [Project Link](https://github.com/JarbasLingua/jarbas-wake-word-plugin-vosk)
+  - **Nyumaya Wakeword Plugin**: Mycroft wake word plugin for Nyumaya version 1.0.0. [Project Link](https://github.com/JarbasLingua/jarbas-wake-word-plugin-nyumaya-premium)
+  - **PocketSphinx Wakeword Plugin**: Mycroft wake word plugin for PocketSphinx. [Project Link](https://github.com/JarbasLingua/jarbas-wakeword-plugin-pocketsphinx)
+- **Speech-to-Text**
+  - **Vosk STT Plugin**: Mycroft STT plugin for Vosk. [Project Link](https://github.com/JarbasLingua/jarbas-stt-plugin-vosk)
+  - **Chromium STT Plugin**: A STT plugin for Mycroft using the google chrome browser api. [Project Link](https://github.com/JarbasLingua/jarbas-stt-plugin-chromium)
+  - **PocketSphinx STT Plugin**: A STT plugin for Mycroft using PocketSphinx. [Project Link](https://github.com/JarbasLingua/jarbas-stt-plugin-pocketsphinx)
+- **Text-to-Speech**
+  - **ResponsiveVoice TTS Plugin**: Mycroft TTS plugin for ResponsiveVoice. [Project Link](https://github.com/JarbasLingua/jarbas-tts-plugin-responsivevoice)
+  - **Voice RSS TTS Plugin**: Mycroft TTS plugin for VoiceRSS. [Project Link](https://github.com/JarbasLingua/jarbas-tts-plugin-voicerss)
+  - **Catotron TTS Plugin**: Mycroft TTS plugin for Catotron. [Project Link](https://github.com/JarbasLingua/jarbas-tts-plugin-catotron)
+  - **Cotovia TTS Plugin**: Mycroft TTS plugin for Cotovia TTS. [Project Link](https://github.com/JarbasLingua/jarbas-tts-plugin-cotovia)
+  - **Softcatala TTS Plugin**: Mycroft TTS plugin for Softcatala TTS. [Project Link](https://github.com/JarbasLingua/jarbas-tts-plugin-softcatala)
 
 ### Skill Tooling & Utilities
-**_A list of tools, utilities and alternative intent parsers that can ease your way into Mycroft Skills Development_**
+**_A list of tools, utilities and alternative intent parsers that can ease your way into Mycroft Skill Development_**
 
 - **OVOS-Utils**: A collection of simple utilities for use across the Mycroft ecosystem. Includes tools and helper functions that extend the Skill API. [Project Link](https://github.com/OpenVoiceOS/ovos_utils)  
 - **OpenVoiceOS Skills Manager (OSM)**: Install skills from any appstore! The mycroft-skills-manager alternative that is not vendor locked. This means you must use it responsibly! [Project Link](https://github.com/OpenVoiceOS/ovos_skill_manager)
@@ -70,7 +73,7 @@ The primary criterion for inclusion is simple: Projects listed here are large un
 - **OpenVoiceOS Workshop**: Frameworks, templates and patches for the Mycroft universe. [Project Link](https://github.com/OpenVoiceOS/OVOS-workshop)
 
 ### Desktop & Mobile Mycroft Integrations
-**_A list of clients, applets, plasmoids, and extensions developed for various Linux Desktop & Mobile Environments_**
+**_A list of clients, applets, plasmoids, and extensions developed for various Linux environments_**
 
 - **Mycroft Android Client (Mobile)**: This is the Android companion app to Mycroft-core. It works by opening a websocket connection to the Mycroft-core messagebus and sending and receiving messages from there. It implements voice recognition and Text To Speech (TTS) via Google API's at the moment. [Project Link](https://github.com/MycroftAI/mycroft-android)
 - **Mycroft GUI Application (Mobile/Desktop)**: The official Mycroft GUI application that can be run as an application under any Linux desktop environment, Linux mobile environment and even on Android. [Project Link](https://github.com/MycroftAI/mycroft-gui)
